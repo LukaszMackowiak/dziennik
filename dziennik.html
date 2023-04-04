@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Dziennik praktyk</h1>
+    <h4>Dziennik:</h4>
+
+    <p>
+        <legend>Dzień:</legend>
+        <label for="dzien">
+            <select id="dzien">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+            </select></label>
+    </p>
+    <p>
+        <legend>Data:</legend>
+        <label for="data">
+            <input type="date" id="data" required /></label>
+    </p>
+
+    <p>
+        <legend>Nazwa działu:</legend>
+        <label for="dzial">
+            <input type="text" id="dzial" name="dzial"
+                placeholder="Wpisz nazwę działu, w którym odbywałeś praktyki w danym dniu" size="60" required /></label>
+    </p>
+    <p>
+        <legend>Zakres obowiązków:</legend>
+        <label for="temat">
+            <select id="temat">
+                <option value="siec">Urządzenia sieciowe</option>
+                <option value="sys">Systemy operacyjne</option>
+                <option value="sprzet">Sprzęt komputerowy</option>
+                <option value="prog">Programowanie</option>
+                <option value="aplikacje">Aplikacje internetowe</option>
+                <option value="bazy">Bazy danych</option>
+            </select></label>
+    </p>
+    <label>Stopień zrealizowania tematu:</label>
+    <label for="realizacja">
+        <input type="range" id="realizacja" min="1" max="6" step="1" value="6" />
+    </label>
+    <p>
+        <legend>Szczegółowe informacje na temat wykonywanych prac:</legend>
+        <label for="sprawozdanie">
+            <input type="text" id="sprawozdanie" name="sprawozdanie" placeholder="Napisz, co robiłeś w danym dniu"
+                size="200" required /></label>
+    </p>
+    <p>
+        <button>Dodaj do dziennika</button>
+    </p>
+    <p>
+        <button><a href="bhp.html">Powrót</a></button>
+        <button><a href="ocena.html">DALEJ</a></button>
+    </p>
+</body>
+
+</html>
